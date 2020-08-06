@@ -18,6 +18,8 @@ public class e4
                 System.out.println("Round"+i+":"+coin);
             }
         System.out.println("Heads:"+countHeads+",Tails:"+countTails);
+	if(countHeads > countTails)System.out.println("You won");
+	else System.out.println("You lost");
     }
 }
 
