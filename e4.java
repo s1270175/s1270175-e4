@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.util.Scanner;
 public class e4
 {
     public static void main(String args[])
@@ -7,8 +8,12 @@ public class e4
         int countHeads = 0;
         int countTails = 0;
         Random r = new Random();
-
-      
+	
+	System.out.println("Who are you?");
+	Scanner scan = new Scanner(System.in);
+	String name = scan.next();
+	System.out.println("Hello,"+name+"!");
+   
 	System.out.println("Tossing a coin...");
         for(int i = 1; i < 4; i++)
             {
